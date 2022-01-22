@@ -1,0 +1,99 @@
+
+/* util */
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* custom */
+
+.section1 {
+    display: flex;
+    background-color: bisque;
+    padding: 10px;
+}
+.nav_ul {
+    display: flex;
+    width: 30rem;
+    justify-content: end;
+}
+.nav_ul > li {
+    margin: 10px;
+}
+
+.th_about {
+    padding: 5px 20px;;
+}
+.td_about {
+    padding: 5px 20px;
+}
+.ul_about {
+    padding: 0px;
+    margin: 0px;
+}
+th {
+    text-align: start;
+    font-size: large;
+}
+.about_table{
+    text-align: left;
+    margin: 0px;
+    padding: 10px 0px;
+    font-size: large;
+}
+
+
+
+
+
+.sec_2_1 {
+    /* width: 300px;
+    float: left; */
+}
+.aside {
+    float: right;
+    width: 150px;
+    border: 1px black solid;
+    margin: 10px;
+}
+footer {
+    background-color: darkgray;
+    margin: 10px;
+    border: 1px black solid;
+    clear: both;
+
+}
+
+
+table {
+    margin: 0 auto;
+}
+fieldset {
+    margin: 20px;
+}
+legend {
+    color: rgb(16, 51, 251);
+    font-size: larger;
+}
+
+label {
+    font-size: large;
+    font-weight: bold;
+}
+input {
+    padding: 10px;
+    font-size: large;
+    margin-left: 0.5rem;
+}
+
+img {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+img:hover {
+    transform: rotateX(45deg);
+
+}
